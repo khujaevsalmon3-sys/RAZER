@@ -1,0 +1,511 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+}
+.menu{
+    display: none;
+}
+nav{
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    background-color: black;
+    border-bottom: 2px solid rgb(23, 148, 29);
+}
+.a{
+    width: 35px;
+}
+.aa{
+    text-decoration: none;
+    color: rgb(160, 156, 156);
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.aaa{
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+nav .a{
+    animation: header 2s forwards;}
+nav .aa{
+    animation: header 2s forwards;}
+nav .aaa{
+    animation: header 2s forwards;}
+@keyframes header{
+    from{
+        scale: 0%;
+    }
+    to{
+        scale: 100%;
+        opacity: 1;
+    }
+}
+main{
+    position: relative;
+    padding-top: 65px;
+}
+.b{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 2;
+    filter: brightness(80%);
+    height: 90vh;
+}
+.bb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    z-index: 3;
+    padding-top: 50px;
+}
+.bbb{
+    font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";;
+    color: white;
+    font-weight: 800;
+}
+.bbbb{
+    font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";;
+    color: white;
+    font-weight: 400;
+    font-size: x-large;
+}
+.bbbbb{
+    display: flex;
+    gap: 20px;
+}
+.btt{
+    width: 110px;
+    padding: 3px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: #44D62C;
+    color: black;
+    font-family: "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.bttt{
+    width: 70px;
+    padding: 3px;
+    height: 40px;
+    border-radius: 4px;
+    font-family: "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #44D62C;
+    border: 2px solid #44D62C;
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+}
+.c{
+    position: relative;
+    margin-top: 470px;
+}
+.cc{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+}
+.ccc{
+    z-index: 2;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
+}
+.cccc{
+     font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";;
+    color: white;
+    font-weight: 800;
+}
+.ccccc{
+    font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";;
+    color: rgba(211, 211, 204, 0.836);
+    font-weight: 400;
+    font-size: large;
+    text-align: center;
+}
+.cccccc{
+   width: 120px;
+    padding: 3px;
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+    background-color: #42b92f;
+    border: 2px solid rgb(28, 78, 16);
+    color: black;
+    font-family: "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.dmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 480px;
+    gap: 30px;
+    text-align: center;
+}
+.d{
+    background-color: black;
+    color: white;
+    width: 280px;
+    padding: 20px;
+    border: 2px solid rgb(64, 61, 61);
+    border-radius: 10px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: all 0.5s ease;
+}
+.d:hover{
+    border: 2px solid whitesmoke;
+}
+.dd{
+    display: flex;
+    margin: auto;
+}
+.ddd{
+    display: flex;
+    font-family: "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.dddd{
+     background-color: black;
+    color: white;
+    width: 280px;
+    padding: 20px;
+    border: 2px solid rgb(64, 61, 61);
+    border-radius: 10px;
+    height: 170px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: all 0.5s ease;
+}
+.dddd:hover{
+    border: 2px solid whitesmoke;
+}
+.emain{
+     background: linear-gradient(black,green,black);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 25px;
+}
+.ee{
+    color: white;
+    background-image: url(./Снимок\ экрана_1-7-2026_165433_www.razer.com.jpeg);
+    padding: 40px;
+    background-size: 100% 100%;
+    height: 90vh;
+    margin: 0px 100px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: 1px solid green;
+}
+.ebut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 116px;
+    gap: 40px;
+}
+.eb{
+     width: 110px;
+    padding: 3px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: #44D62C;
+    color: black;
+    font-family: "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.ebb{
+     width: 87px;
+    padding: 3px;
+    height: 40px;
+    border-radius: 2px;
+    font-family: "Titillium Web", RazerF5, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #44D62C;
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+    border: 2px solid #44D62C;
+}
+.edown{
+    width: 1200px;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.fmain{
+    display: flex;
+    gap: 15px;
+    background-color: black;
+    height: 740px;
+}
+.f{
+    width: 400px;
+    padding-top: 100px;
+    margin-left: 14px;
+    cursor: pointer;
+}
+.ff{
+    width: 350px;
+    height: 600px;
+    border-radius: 15px;
+    border: 3px solid transparent;
+    transition: all 0.5s ease;
+
+}
+.x{
+    width: 350px;
+    height: 600px;
+    border-radius: 15px;
+    border: 3px solid transparent;
+    transition: all 0.5s ease;
+}
+.x:hover{
+    border: 3px solid whitesmoke;
+}
+.ff:hover{
+    border: 3px solid whitesmoke;
+}
+.fdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+    cursor: pointer;
+}
+.fdownn{
+    background-color: black;
+}
+.gmain{
+    display: flex;  
+    background-color: black;
+    padding-top: 70px;
+}
+.g{
+    width: 450px;
+    height: 250px;
+    margin-left: 40px;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.gg{
+    width: 100%;
+    height: 85%;
+    border-radius: 15px;  
+}
+.ggg{
+    color: white;
+    font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";;
+    font-weight: 400;
+    font-size: large;
+    display: flex;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding: 10px;
+}
+.g:hover{
+    border: 3px solid whitesmoke;
+}
+.gdown{
+    background-color: black;
+}
+.gdownn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 560px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+footer{
+    background-color: #111;
+}
+.h{
+    display: flex;
+    gap: 80px;
+    margin-left: 100px;
+    border-bottom: 2px solid grey;
+}
+.hh{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+footer span{
+    color: white;
+    font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";;
+}
+footer a{
+    color: #999;
+    text-decoration: none;
+    font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";;
+    font-size: small;
+    padding-top: 15px;
+}
+footer img{
+    height: 90%;
+    width: 90%;
+}
+.hhh{
+    color: #44d62c;
+     font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";;
+     margin-left: 100px;
+}
+.i{
+    display: flex;
+    margin-left: 100px;
+    gap: 50px;
+    padding-top: 20px;
+    align-items: center;
+}
+.ii{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 13px;
+}
+.iii{
+     font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";;
+    font-size: small;
+}
+@media (max-width:768px) {
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu{
+        display: block;
+        width: 40px;
+    }
+    .aa{
+        display: none;
+    }
+    .b{
+        width: 450px;
+    }
+    .bb{
+        width: 300px;
+        font-size: xx-small;
+        margin-left: 60px;
+    }
+    .bbbb{
+        display: none;
+    }
+    .ccccc{
+        display: none;
+    }
+    .c{
+        width: 450px;
+    }
+    .cc{
+        height: 900px;
+    }
+    .dddd{
+        display: none;
+    }
+    .d{
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+    }
+    .eb{
+        display: none;
+    }
+    .ebb{
+        display: none;
+    }
+    .emain{
+        margin-top: 90px;
+        width: 450px;
+    }
+    .fmain{
+        width: 450px;
+    }
+    .ff{
+        display: none;
+    }
+    .x{
+        width: 280px;
+        object-fit: contain;
+        display: flex;
+        margin-left: 30px;
+    }
+    .gg{
+        width: 290px;
+        display: flex;
+        margin-left: 40px;
+    }
+    .g{
+        width: 350px;
+        height: 210px;
+    }
+    .iii{
+        display: none;
+    }
+    .l{
+        display: none;
+    }
+    .ee{
+        height: 30vh;
+    }
+    .gmain{
+        width: 450px;
+    }
+    .gdown{
+        display: none;
+    }
+    .fdown{
+        display: none;
+    }
+    .edown{
+        display: none;
+    }
+    .gmain{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-bottom: 30px;
+    }
+    .hhh{
+        display: none;
+    }
+    .xx{
+        display: none;
+    }
+    .s{
+        display: none;
+    }
+    footer{
+        width: 450px;
+    }
+}
